@@ -16,7 +16,7 @@ class FaceRecognitionSystem:
     def __init__(self, root):
         self.root = root
         self.root.state("zoomed")
-        # self.root.geometry("1530x790+0+0")
+        
         self.root.title("Face Recognition System")
 
         # ---------- First Image ----------

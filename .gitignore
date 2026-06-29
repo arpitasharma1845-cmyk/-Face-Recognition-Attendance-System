@@ -1,0 +1,6 @@
+data/
+classifier.xml
+attendance.csv
+__pycache__/
+*.pyc
+.venv/

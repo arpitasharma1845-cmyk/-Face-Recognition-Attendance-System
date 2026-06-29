@@ -210,11 +210,10 @@ class LoginSystem:
             else:
                 messagebox.showinfo(
                     "Success",
-                    f"Welcome Smart Attendance System{self.txtuser.get()}"
+                    f"Welcome{self.txtuser.get()}"
                 )
 
                 self.root.destroy()
-
                 new_root = Tk()
                 app = FaceRecognitionSystem(new_root)
                 new_root.mainloop()
