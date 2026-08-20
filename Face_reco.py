@@ -76,7 +76,7 @@ class FaceRecognition:
            
         )
 
-        status_frame.pack(fill=X, padx=20, pady=15)
+        status_frame.pack(fill=X, padx=10, pady=15)
 
         self.status_lbl = Label(
             status_frame,

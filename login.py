@@ -210,7 +210,7 @@ class LoginSystem:
             else:
                 messagebox.showinfo(
                     "Success",
-                    f"Welcome{self.txtuser.get()}"
+                    f"Welcome {self.txtuser.get()}"
                 )
 
                 self.root.destroy()
